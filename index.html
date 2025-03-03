@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sefat Khan | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="main" class="flex text-white">
+    <div id="background">
+      <div class="planet saturn"></div>
+      <div class="planet uranus"></div>
+      <div class="planet jupiter"></div>
+    </div>
+
+    <div id="cursor" class="flex-justify-align-center border-radius-round">
+      <div class="blade blade1"></div>
+      <div class="blade blade2"></div>
+      <div class="blade blade3"></div>
+      <div class="blade blade4"></div>
+    </div>
+    <!-- Sidebar -->
+    <aside class="bg-light-dark">
+      <div class="logo bg-dark">
+        <h2 id="logo" class="bg-dark text-blue">Sefat Khan</h2>
+        <p id="jt" class="text-light-blue">Frontend Developer</p>
+      </div>
+      <nav class="bg-dark">
+        <ul class="flex text-center">
+          <li class="dLi">
+            <a href="#about" class="text-blue">About</a>
+          </li>
+          <li class="dLi">
+            <a href="#projects" class="text-blue">Projects</a>
+          </li>
+          <li class="dLi">
+            <a href="#contact" class="text-blue">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="socials bg-dark text-center">
+        <a
+          class="git text-blue"
+          href="https://github.com/Sefat-Khan"
+          target="_blank"
+          >GitHub</a
+        >
+        <a
+          class="link text-blue"
+          href="www.linkedin.com/in/sefat-khan-44296b2b8"
+          target="_blank"
+          >Linkdin</a
+        >
+        <a
+          class="face text-blue"
+          href="https://www.facebook.com/Md.Sefatkhan.2/"
+          target="_blank"
+          >Facebook</a
+        >
+        <!-- Add more links here -->
+      </div>
+    </aside>
+
+    <!-- for small device -->
+
+    <header class="header">
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <div class="menuIcons">
+        <span id="menuIcons" class="material-icons">menu</span>
+      </div>
+      <div class="menu flex">
+        <span id="cross" class="material-icons text-white border-radius-round"
+          >close</span
+        >
+        <nav>
+          <ul class="nav">
+            <li class="sLi">
+              <a href="#about">About</a>
+            </li>
+            <li class="sLi">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="sLi">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <p id="social">social</p>
+        <div class="socials">
+          <a class="mA" href="https://github.com/Sefat-Khan" target="_blank"
+            >GitHub</a
+          >
+          <a
+            class="mA"
+            href="www.linkedin.com/in/sefat-khan-44296b2b8"
+            target="_blank"
+            >Linkdin</a
+          >
+          <a
+            class="mA"
+            href="https://www.facebook.com/Md.Sefatkhan.2/"
+            target="_blank"
+            >Facebook</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="about" class="section">
+        <h2 class="fire-text text-white">Hi,</h2>
+        <h2 class="fire-text text-white">I'm Sefat Khan,</h2>
+        <h3 id="tj" class="font-large">Frontend Developer</h3>
+        <p id="summary" class="font-medium">
+          I specialize in HTML, CSS, Tailwind CSS, Bootstrap, React, Next.js,
+          Nest.js, Angular, Vue.js, and have short knowledge of Node.js,
+          Laravel, Django, responsive design, MySQL, Firestore database, and
+          MongoDB.
+        </p>
+        <button class="cmb text-white border-blue">Contact me</button>
+      </section>
+
+      <!--- project sections --->
+
+      <section id="projects" class="section text-center">
+        <h2 class="font-large">My Work</h2>
+        <div class="projectDiv flex"></div>
+        <!-- Add more projects as needed -->
+      </section>
+
+      <!--- contact sections --->
+
+      <section id="contact" class="section text-center">
+        <h2 class="font-large">Contact Me</h2>
+        <p class="cp font-medium">
+          Feel free to reach out for any opportunities or collaborations.
+        </p>
+        <form id="contactForm">
+          <input
+            class="bg-light-dark text-white"
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            class="bg-light-dark text-white"
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            class="bg-light-dark text-white"
+            id="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button class="cmb text-white border-blue" type="submit">
+            Send Message
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
